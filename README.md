@@ -5,6 +5,8 @@
 print("Hello world")
 # task id
 # liste des dépendances
+
+<code>
 class Task(object):
     def __init__(self, task_id, dependencies):
         self.dependencies = dependencies
@@ -29,5 +31,5 @@ def test_question_three():
                       task_two,
                       task_three])
     s.run()
-    
+</code>
 
