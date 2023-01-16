@@ -92,3 +92,9 @@ def dfs(G,v):
 
 ![Screenshot](./img/maze_units.jpg)
 ![Screenshot](./img/maze_cell.jpg)
+
+Function : def check_cell
+![Screenshot](./img/maze_cell_coord.jpg)
+
+Function : def remove_walls
+![Screenshot](./img/maze_cell_wall.jpg)
