@@ -81,3 +81,14 @@ def dfs(G,v):
             dfs(G,w)
     visit(v) # post-order implementation
 ```
+
+# DFS Application
+
+- Cycle Detection
+- Finding Connected Components
+- Topological Sort
+
+# DFS Game : Maze Generator
+
+![Screenshot](./img/maze_units.jpg)
+![Screenshot](./img/maze_cell.jpg)
