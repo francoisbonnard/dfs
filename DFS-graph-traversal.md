@@ -1,3 +1,5 @@
+# Deep-first search
+
 ![Screenshot](./img/dfs-graph-traversal.jpg)
 
 # Intuition
@@ -94,7 +96,11 @@ def dfs(G,v):
 ![Screenshot](./img/maze_cell.jpg)
 
 Function : def check_cell
+
 ![Screenshot](./img/maze_cell_coord.jpg)
 
 Function : def remove_walls
+
 ![Screenshot](./img/maze_cell_wall.jpg)
+
+![Screenshot](./img/maze01.jpg)

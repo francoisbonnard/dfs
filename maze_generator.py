@@ -80,8 +80,8 @@ grid_cells = [Cell(col,row) for row in range(rows) for col in range(cols)]
 current_cell = grid_cells[0]
 stack = []
 
+sc.fill(pygame.Color('darkslategray'))
 while True:
-    sc.fill(pygame.Color('darkslategray'))
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -93,6 +93,7 @@ while True:
 
 
     next_cell = current_cell.check_neighbors()
+
     if next_cell:
         next_cell.visited = True
         stack.append(current_cell)
